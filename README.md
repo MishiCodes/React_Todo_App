@@ -21,6 +21,7 @@ npm run deploy
 ## The published To-do App:
 https://mishicodes.github.io/React_Todo_App/
 
+## How to Run the App:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
