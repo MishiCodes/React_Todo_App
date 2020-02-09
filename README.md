@@ -1,8 +1,28 @@
+# To-Do-App-in-React
+
+This is a simple Todo Application in react.In this application, React components, React forms, event handlers etc are used. For styling Bootstrap and Font-awesome is used and uuid is used for todos ids. 
+
+## Commands used to install:
+
+$ npm i uuid bootstrap --save
+
+$ npm i --save font-awesome
+
+$ npm i gh-pages --save-dev
+
+## Commands used to publish react files in github:
+
+git remote set-url origin https://github.com/MishiCodes/React_Todo_App
+
+npm run build
+
+npm run deploy
+
+## The published To-do App:
+https://mishicodes.github.io/React_Todo_App/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
@@ -37,32 +57,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
