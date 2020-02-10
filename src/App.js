@@ -23,15 +23,19 @@ class App extends Component {
       title: this.state.item
     };
 
-    const updatedItems = [...this.state.items, newItem];
-
-    this.setState({
-      items: updatedItems,
-      item: '',
-      id: uuid(),
-      editItem: false
-    });
+    if (newItem.title !== '') {
+      const updatedItems = [...this.state.items, newItem];
+      this.setState({
+        items: updatedItems,
+        item: '',
+        id: uuid(),
+        editItem: false
+      });
+    } else {
+      alert('Todo cannot be Empty');
+    }
   };
+
   clearList = () => {
     this.setState({
       items: []
